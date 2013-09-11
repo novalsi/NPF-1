@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0F451D17E0E879009B9198 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0F451C17E0E879009B9198 /* CoreLocation.framework */; };
 		3F1A766E17DFA5920008CD4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1A766D17DFA5920008CD4D /* UIKit.framework */; };
 		3F1A767017DFA5920008CD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1A766F17DFA5920008CD4D /* Foundation.framework */; };
 		3F1A767217DFA5920008CD4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1A767117DFA5920008CD4D /* CoreGraphics.framework */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0F451C17E0E879009B9198 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3F1A766A17DFA5920008CD4D /* NPF-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NPF-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1A766D17DFA5920008CD4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F1A766F17DFA5920008CD4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0F451D17E0E879009B9198 /* CoreLocation.framework in Frameworks */,
 				3F1A766E17DFA5920008CD4D /* UIKit.framework in Frameworks */,
 				3F1A767017DFA5920008CD4D /* Foundation.framework in Frameworks */,
 				3F1A767217DFA5920008CD4D /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		3F1A766C17DFA5920008CD4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F0F451C17E0E879009B9198 /* CoreLocation.framework */,
 				3F1A766D17DFA5920008CD4D /* UIKit.framework */,
 				3F1A766F17DFA5920008CD4D /* Foundation.framework */,
 				3F1A767117DFA5920008CD4D /* CoreGraphics.framework */,
@@ -287,6 +291,7 @@
 				3F1A768917DFA5920008CD4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

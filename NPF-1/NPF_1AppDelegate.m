@@ -7,6 +7,7 @@
 //
 
 #import "NPF_1AppDelegate.h"
+#import "Park.h"
 
 @implementation NPF_1AppDelegate
 
@@ -16,6 +17,40 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    Park *p1 = [[Park alloc] init];
+    NSLog(@"p1 is %@",p1);
+    
+    Park *p2 = [[Park alloc] initWithName:@"Acadia National Park"
+                             parkLocation:@"Maine"
+                                   formed:@"1919-02-06"
+                                     area:@"47,389.67 ac"
+                                     link:@"TBD"
+                                location:NULL
+                                imageLink:@"TBD"
+                          parkDescription:@"Beautiful"
+                ];
+    
+    NSLog(@"p2 is %@",p2);
+    
+    p2.link = @"http://en.wikipedia.org/wiki/Acadia_National_Pork";
+    NSLog(@"p2 is %@",p2);
+    
+    Park *p3 = [Park park];
+    p3.parkName=@"TBD";
+    NSLog(@"p3 is %@",p3);
+    
+    Park *p4 = [[Park alloc] initWithName:@"ab"
+                             parkLocation:@"na"
+                                   formed:@"1919-03-07"
+                                     area:@"645 ha"
+                                     link:@"TBD"
+                                 location:NULL
+                                imageLink:@"TBD"
+                          parkDescription:@"TBD"
+                ];
+    NSLog(@"p4 is %@",p4);
+    
     return YES;
 }
 
